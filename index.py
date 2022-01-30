@@ -6,7 +6,7 @@ email_id = input("Enter the Email ID: ")
 
 index1 = email_id.index('@')
 
-name = email[:index1]
+name = email_id[:index1]
 name = ''.join([i for i in name if not i.isdigit()])
 
 text = name + " linkedin"
